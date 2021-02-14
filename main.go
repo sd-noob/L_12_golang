@@ -6,20 +6,31 @@ import (
 
 func main(){
 	
-	fmt.Print("Enter your age:")
-	var age int
-	fmt.Scanf("%d",& age)
-	//fmt.Println( age)
+// Simple loop
+/*
+	for i := 1; i<=9; i++{
+				fmt.Println(i)	
+	                     }
+*/
+// Range for loop
+/*	
+	students :=[]string{"Sourav","Das","Hriday"}
+	for i, std := range students {
+					fmt.Println(i,std)
+				      }
+*/
+
+// While loop
 	
-	switch age {
-	case 2:
- 		fmt.Println("Infant")
-	case 3,4,5,6,7,8,9,10,11,12:
-		fmt.Println("Children")
-	case 13,14,15,16,17,18,19:
-		fmt.Println("Teen age")
-	default:
-		fmt.Println("Adult")
-	}
+/*	
+	for true{
+			fmt.Println("Hello")
+	         }
+*/
 	
+	i := 0
+	for i < 10 {
+			fmt.Println(i,"Hello")
+			i++
+		    }		
 }
